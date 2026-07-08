@@ -16,7 +16,7 @@ source.dir = .
 source.include_exts = py,png,jpg,kv,atlas,ttf,otf,mp3,wav,ogg,m4a
 
 # (list) Source files to exclude
-source.exclude_exts = spec,txt,md,json,lock
+source.exclude_exts = spec,txt,md,lock
 
 # (list) Directory to exclude
 source.exclude_dirs = .git,__pycache__,.bolt
@@ -48,16 +48,16 @@ orientation = portrait
 fullscreen = 0
 
 # (list) Permissions
-android.permissions = WAKE_LOCK,VIBRATE,READ_EXTERNAL_STORAGE,WRITE_EXTERNAL_STORAGE
+android.permissions = WAKE_LOCK,VIBRATE
 
 # (int) Android API to use
-android.api = 31
+android.api = 34
 
 # (int) Minimum API required
 android.minapi = 21
 
 # (int) Android SDK version to use
-android.sdk = 31
+android.sdk = 34
 
 # (str) Android NDK version to use
 android.ndk = 23b
