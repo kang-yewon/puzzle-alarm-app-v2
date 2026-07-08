@@ -1,0 +1,8 @@
+# Kivy for cross-platform UI (Android via Buildozer/Kivy Launcher)
+kivy>=2.3.0
+
+# Audio playback (works on desktop; on Android use android.media via pyjnius)
+pygame>=2.5.0
+
+# Optional: numpy beep fallback on desktop
+numpy>=1.24.0
